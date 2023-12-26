@@ -26,3 +26,10 @@ This project is to have a record of what i have learned about TypeScript.
 
 - OR ( `|` )
 - AND ( `&` )
+
+## _[Type of collection](/code/type-of-collection.ts)_
+
+Fundamentally, TypeScript supports two kinds of collections: arrays (where all the members are of the same type and are accessed by position) and tuples (where each member can be of a different type).
+
+- Array
+- tuples
