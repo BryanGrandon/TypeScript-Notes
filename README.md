@@ -7,6 +7,7 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 - [Introduction](#introduction)
 - [Primitive type](#primitive-types)
 - [Type of union](#type-of-union)
+- [Interface and types](#interfaces-and-types)
 
 ## _Introduction_
 
@@ -33,3 +34,24 @@ Fundamentally, TypeScript supports two kinds of collections: arrays (where all t
 
 - Array
 - tuples
+
+## _Interfaces and types_
+
+In TypeScript we can use Type and Interface to describe the structure of objects.
+
+### [Difference](/code/interface-and-types/difference.ts)
+
+- Interface
+- Declaration merging
+- Type
+- Unions
+- Tuples
+
+### [Type of property](/code/interface-and-types/type-of-property.ts)
+
+- Interface
+- Type
+
+### [Extends](/code/interface-and-types/extends.ts)
+
+- interface
