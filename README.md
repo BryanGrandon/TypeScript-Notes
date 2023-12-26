@@ -6,6 +6,7 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 
 - [Introduction](#introduction)
 - [Primitive type](#primitive-types)
+- [Type of union](#type-of-union)
 
 ## _Introduction_
 
@@ -20,3 +21,8 @@ This project is to have a record of what i have learned about TypeScript.
 - Enumeration
 - Any
 - Unknown
+
+## _[Type of union](/code/type-of-union.ts)_
+
+- OR ( `|` )
+- AND ( `&` )
