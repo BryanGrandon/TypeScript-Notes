@@ -55,3 +55,16 @@ In TypeScript we can use Type and Interface to describe the structure of objects
 ### [Extends](/code/interface-and-types/extends.ts)
 
 - interface
+
+## _[Functions](/code/function.ts)_
+
+They're how you build up layers of abstraction, mimicking classes, information hiding, and modules.
+
+Set the type of data to be entered to the function. <br>
+Set the type of data to be output by the function.
+
+- Functions with name.
+- Anonymous functions.
+- Arrow function.
+- Parameters.
+- Definition of type of function.
