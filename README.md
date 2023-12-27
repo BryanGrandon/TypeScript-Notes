@@ -10,6 +10,7 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 - [Interface and types](#interfaces-and-types)
 - [Functions](#functions)
 - [Class](#class)
+- [Generic](#generic)
 
 ## _Introduction_
 
@@ -78,3 +79,7 @@ Classes allow common object-oriented patterns to be expressed in a standard way,
 - They exist at compile time and during runtime.
 - We can initialize properties and implement methods.
 - Create instances of such a class.
+
+## _[Generic](/code/generic.ts)_
+
+Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type. The type variable "T" can be used whenever a type annotation is needed.
