@@ -83,3 +83,7 @@ Classes allow common object-oriented patterns to be expressed in a standard way,
 ## _[Generic](/code/generic.ts)_
 
 Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type. The type variable "T" can be used whenever a type annotation is needed.
+
+## _[Modules](/code/modules/)_
+
+A module is a way to create a group of related variables, functions, classes, and interfaces, etc. It executes in the local scope, not in the global scope. In other words, the variables, functions, classes, and interfaces declared in a module cannot be accessible outside the module directly. We can create a module by using the export keyword and can use in other modules by using the import keyword.
