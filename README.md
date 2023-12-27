@@ -8,6 +8,8 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 - [Primitive type](#primitive-types)
 - [Type of union](#type-of-union)
 - [Interface and types](#interfaces-and-types)
+- [Functions](#functions)
+- [Class](#class)
 
 ## _Introduction_
 
@@ -68,3 +70,11 @@ Set the type of data to be output by the function.
 - Arrow function.
 - Parameters.
 - Definition of type of function.
+
+## _[Class](/code/class.ts)_
+
+Classes allow common object-oriented patterns to be expressed in a standard way, making features such as inheritance more readable and interoperable.
+
+- They exist at compile time and during runtime.
+- We can initialize properties and implement methods.
+- Create instances of such a class.
