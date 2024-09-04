@@ -9,6 +9,7 @@ npm install -g typescript
 ## Table of content
 
 - [The TypeScript compiler.](#the-typescript-compiler)
+- [Data types](#data-types)
 
 ## The TypeScript compiler
 
@@ -30,3 +31,28 @@ tsc script.ts
   tsc -init
   tsc -w
   ```
+
+## [Data types](/typescript/data-type.ts)
+
+Since typeScript is a superset of javaScript it has the same data types only typeScript adds new ones.
+
+- javaScript types
+
+  - String
+  - Number
+  - BigInt
+  - Boolean
+  - Null
+  - Undefined
+  - Object
+  - Function
+
+- The data types added by typescript
+
+  - Any
+  - Unknown
+  - Never
+  - Arrays
+  - Tuples
+  - Enums
+  - Inferred types
