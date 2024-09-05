@@ -32,27 +32,27 @@ tsc script.ts
   tsc -w
   ```
 
-## [Data types](/typescript/data-type.ts)
+## Data types
 
 Since typeScript is a superset of javaScript it has the same data types only typeScript adds new ones.
 
 - javaScript types
 
-  - String
-  - Number
-  - BigInt
-  - Boolean
-  - Null
-  - Undefined
-  - Object
+  - [String](/typescript/data-types/javascript/string.ts)
+  - [Number](/typescript/data-types/javascript/number.ts)
+  - [Boolean](/typescript/data-types/javascript/boolean.ts)
+  - [Null](/typescript/data-types/javascript/null.ts)
+  - [Undefined](/typescript/data-types/javascript/undefined.ts)
+  - [Object](/typescript/data-types/javascript/object.ts)
   - Function
 
 - The data types added by typescript
 
-  - Any
+  - [Any](/typescript/data-types/typescript/any.ts)
+  <!-- VOID -> Generally used on function return-types -->
   - Unknown
   - Never
-  - Arrays
+  - [Arrays](/typescript/)
   - Tuples
   - Enums
   - Inferred types
