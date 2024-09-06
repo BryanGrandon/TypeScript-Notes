@@ -50,7 +50,7 @@ Since typeScript is a superset of javaScript it has the same data types only typ
 
   - [Any](/typescript/data-types/typescript/any.ts)
   <!-- VOID -> Generally used on function return-types -->
-  - Unknown
+  - [Unknown](/typescript/data-types/typescript/unknown.ts)
   - Never
   - [Arrays](/typescript/)
   - Tuples
