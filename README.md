@@ -44,7 +44,7 @@ Since typeScript is a superset of javaScript it has the same data types only typ
   - [Null](/typescript/data-types/javascript/null.ts)
   - [Undefined](/typescript/data-types/javascript/undefined.ts)
   - [Object](/typescript/data-types/javascript/object.ts)
-  - Function
+  - [Function](/typescript/data-types/javascript/functions.ts)
 
 - The data types added by typescript
 
