@@ -52,7 +52,7 @@ Since typeScript is a superset of javaScript it has the same data types only typ
   - Void -> Generally used on function return-types
   - [Unknown](/typescript/data-types/typescript/unknown.ts)
   - [Never](/typescript/data-types/typescript/never.ts)
-  - [Arrays](/typescript/)
-  - Tuples
+  - [Arrays](/typescript/data-types/typescript/arrays.ts)
+  - [Tuples](/typescript/data-types/typescript/tuples.ts)
   - Enums
   - Inferred types
