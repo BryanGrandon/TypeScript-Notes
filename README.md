@@ -36,15 +36,15 @@ tsc script.ts
 
 Since typeScript is a superset of javaScript it has the same data types only typeScript adds new ones.
 
-- javaScript types
+- [JavaScript types](/typescript/data-types/javascript-types.ts)
 
-  - [String](/typescript/data-types/javascript/string.ts)
-  - [Number](/typescript/data-types/javascript/number.ts)
-  - [Boolean](/typescript/data-types/javascript/boolean.ts)
-  - [Null](/typescript/data-types/javascript/null.ts)
-  - [Undefined](/typescript/data-types/javascript/undefined.ts)
-  - [Object](/typescript/data-types/javascript/object.ts)
-  - [Function](/typescript/data-types/javascript/functions.ts)
+  - String.
+  - Number.
+  - Boolean.
+  - Null.
+  - Undefined.
+  - Object.
+  - Function.
 
 - The data types added by typescript
 
