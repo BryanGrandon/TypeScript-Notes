@@ -49,7 +49,7 @@ Since typeScript is a superset of javaScript it has the same data types only typ
 - The data types added by typescript
 
   - [Any](/typescript/data-types/typescript/any.ts)
-  - Void -> Generally used on function return-types
+  - [Void](/typescript/data-types/typescript/void.ts)
   - [Unknown](/typescript/data-types/typescript/unknown.ts)
   - [Never](/typescript/data-types/typescript/never.ts)
   - [Arrays](/typescript/data-types/typescript/arrays.ts)
