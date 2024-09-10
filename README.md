@@ -46,12 +46,11 @@ Since typeScript is a superset of javaScript it has the same data types only typ
   - Object.
   - Function.
 
-- The data types added by typescript
-
-  - [Any](/typescript/data-types/typescript/any.ts)
-  - [Void](/typescript/data-types/typescript/void.ts)
-  - [Unknown](/typescript/data-types/typescript/unknown.ts)
-  - [Never](/typescript/data-types/typescript/never.ts)
-  - [Arrays](/typescript/data-types/typescript/arrays.ts)
-  - [Tuples](/typescript/data-types/typescript/tuples.ts)
-  - [Enums](/typescript/data-types/typescript/enums.ts)
+- [The data types added by typescript](/typescript/data-types/typescript-types.ts)
+  - Any
+  - Void
+  - Unknown
+  - Never
+  - Arrays
+  - Tuples
+  - Enums
