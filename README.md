@@ -11,6 +11,7 @@ npm install -g typescript
 - [The TypeScript compiler.](#the-typescript-compiler)
 - [Data types](#data-types)
 - [Type](#type)
+- [Interfaces](#interfaces)
 
 ## The TypeScript compiler
 
@@ -58,15 +59,22 @@ Since typeScript is a superset of javaScript it has the same data types only typ
 
 ## [Type](/typescript/type.ts)
 
-Type is a keyword in TypeScript that we can use to define the shape of data.
-
-Type aliases in TypeScript mean “a name for any type.” They provide a way of creating new names for existing types.
-Type aliases don’t define new types; instead, they provide an alternative name for an existing type.
-Type aliases can be created using the type keyword, referring to any valid TypeScript type, including primitive types.
+Type aliases don’t define new types; instead, they provide an alternative name for an existing type. Type aliases can be created using the type keyword, referring to any valid TypeScript type, including primitive types.
 
 ```ts
 type Programmer = {
   name: string;
   technology: string[];
 };
+```
+
+## [Interfaces](/typescript/interfaces.ts)
+
+In TypeScript, an interface defines a contract that an object must adhere to.
+
+```ts
+interface Client {
+  name: string;
+  address: string;
+}
 ```
