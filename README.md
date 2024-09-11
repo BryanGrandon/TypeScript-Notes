@@ -12,6 +12,7 @@ npm install -g typescript
 - [Data types](#data-types)
 - [Type](#type)
 - [Interfaces](#interfaces)
+- [Classes](/typescript/class.ts)
 
 ## The TypeScript compiler
 
@@ -78,3 +79,18 @@ interface Client {
   address: string;
 }
 ```
+
+## [Classes](/typescript/classes.ts)
+
+- They exist at compile time and during runtime.
+- We can initialize properties and implement methods
+- Create instances of such a class
+
+### Access control keywords
+
+| Access Modifier | Description                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `public`        | if you do not specify an access modifier, the default is public.                                                         |
+| `private`       | If you modify the member with the private keyword, it cannot be accessed from outside the containing class.              |
+| `protected`     | It is similar to the private modifier, with the difference that it can access protected elements within derived classes. |
+| `readonly`      | read-only modifier                                                                                                       |
