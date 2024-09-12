@@ -13,6 +13,7 @@ npm install -g typescript
 - [Type](#type)
 - [Interfaces](#interfaces)
 - [Classes](/typescript/class.ts)
+- [Generic](#generic)
 
 ## The TypeScript compiler
 
@@ -94,3 +95,9 @@ interface Client {
 | `private`       | If you modify the member with the private keyword, it cannot be accessed from outside the containing class.              |
 | `protected`     | It is similar to the private modifier, with the difference that it can access protected elements within derived classes. |
 | `readonly`      | read-only modifier                                                                                                       |
+
+## [Generic](/typescript/generic.ts)
+
+Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type.
+
+The type variable "T" can be used whenever a type annotation is needed.
