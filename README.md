@@ -8,56 +8,34 @@ npm install -g typescript
 
 ## Table of content
 
-- [The TypeScript compiler.](#the-typescript-compiler)
 - [Data types](#data-types)
 - [Type](#type)
 - [Interfaces](#interfaces)
 - [Classes](/typescript/class.ts)
 - [Generic](#generic)
 
-## The TypeScript compiler
+## [Data types](/typescript/data-type.ts)
 
-What this compiler actually does is to transpile, since neither the browser nor Node.js can natively read TypeScript files, so it performs a translation process in which your code is converted to JavaScript.
+The data types in typescript are indicated or the language infers what type of data is being assigned to the variable.
 
-```bash
-tsc script.ts
+```ts
+let user_1: string = 'Bryan'
+let user_2 = 'Andres'
 ```
 
-- Observer mode is used in Typescript to automatically compile changes whenever we make a change to a file.
+```ts
+const add = (): number => {}
+```
 
-  ```bash
-    tsc script.ts -w
-  ```
-
-  To have the observer mode in all typescript files so that they are compiled automatically. The first thing to do is to initialize the project with typescript
-
-  ```bash
-  tsc -init
-  tsc -w
-  ```
-
-## Data types
-
-Since typeScript is a superset of javaScript it has the same data types only typeScript adds new ones.
-
-- [JavaScript types](/typescript/data-types/javascript-types.ts)
-
-  - String.
-  - Number.
-  - Boolean.
-  - Null.
-  - Undefined.
-  - Object.
-  - Function.
-
-- [The data types added by typescript](/typescript/data-types/typescript-types.ts)
-  - Any
-  - Void
-  - Unknown
-  - Never
-  - Arrays
-  - Tuples
-  - Enums
+| Data types | Description                                                                  |
+| ---------- | ---------------------------------------------------------------------------- |
+| `any`      | Any type of value can be assigned to it.                                     |
+| `void`     | void is used where there is no data.                                         |
+| `unknown`  | The use of unknown allows us to work with unknown values with type safety.   |
+| `never`    | Never is used in the case of functions that we know will not return a value. |
+| `arrays`   | Ways to specify the data type to be contained in the array                   |
+| `tuples`   | Similar to an array specifying each type to be in the array                  |
+| `enums`    | Enums allow a developer to define a set of named constants.                  |
 
 ## [Type](/typescript/type.ts)
 
@@ -65,9 +43,9 @@ Type aliases don’t define new types; instead, they provide an alternative name
 
 ```ts
 type Programmer = {
-  name: string;
-  technology: string[];
-};
+  name: string
+  technology: string[]
+}
 ```
 
 ## [Interfaces](/typescript/interfaces.ts)
@@ -76,8 +54,8 @@ In TypeScript, an interface defines a contract that an object must adhere to.
 
 ```ts
 interface Client {
-  name: string;
-  address: string;
+  name: string
+  address: string
 }
 ```
 
